@@ -181,6 +181,24 @@ $brown: #8f4a1d;
 				position: relative;
 				background-size: cover;
 				background-position: 50%;
+				&:after{
+					position: absolute;
+					content: "\f06e";
+					display: inline-block;
+					font: normal normal normal 14px/1 FontAwesome;
+					font-size: inherit;
+					text-rendering: auto;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					top: 50%;
+					left: 0;right: 0;
+					transform:translateY(-50%);
+					font-size: 33px;
+					color: #FFF;
+					opacity: 0;
+					text-align: center;
+					transition:all .4s;
+				}
 				&:before{
 					position: absolute;
 					content: "";
@@ -217,6 +235,9 @@ $brown: #8f4a1d;
 				.image{
 					&:before{
 						opacity: .45;
+					}
+					&:after{
+						opacity: 1;
 					}
 				}
 			}
