@@ -1,0 +1,61 @@
+/* font-family: "YanoneKaffeesatzRegular"; */
+@font-face {
+    font-family: "YanoneKaffeesatzRegular";
+    src: url("../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot");
+    src: url("../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.woff") format("woff"),
+    url("../fonts/YanoneKaffeesatzRegular/YanoneKaffeesatzRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzBold"; */
+@font-face {
+    font-family: "YanoneKaffeesatzBold";
+    src: url("../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.eot");
+    src: url("../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff") format("woff"),
+    url("../fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzLight"; */
+@font-face {
+    font-family: "YanoneKaffeesatzLight";
+    src: url("../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.eot");
+    src: url("../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.woff") format("woff"),
+    url("../fonts/YanoneKaffeesatzLight/YanoneKaffeesatzLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "YanoneKaffeesatzExtraLight"; */
+@font-face {
+    font-family: "YanoneKaffeesatzExtraLight";
+    src: url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot");
+    src: url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.woff") format("woff"),
+    url("../fonts/YanoneKaffeesatzExtraLight/YanoneKaffeesatzExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "UniSansHeavy";
+    src: url("../fonts/UniSansHeavy/UniSansHeavy.eot");
+    src: url("../fonts/UniSansHeavy/UniSansHeavy.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/UniSansHeavy/UniSansHeavy.woff") format("woff"),
+    url("../fonts/UniSansHeavy/UniSansHeavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/fontawesome-webfont.eot");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/fontawesome-webfont.woff") format("woff"),
+    url("../fonts/fontawesome-webfont.svg") format("svg"),
+    url("../fonts/fontawesome-webfont.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
