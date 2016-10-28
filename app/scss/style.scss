@@ -268,3 +268,41 @@ $brown: #8f4a1d;
 		font-family: $font_pt;
 	}
 }
+
+
+.section4{
+	.posts_container{
+		.post_row{
+			margin-bottom: 20px;
+			.image{
+				width: 35%;
+				@include vert-align();
+				img{
+					width: 90%;
+				}
+			}
+			.content{
+				width: 65%;
+				background: #fef7e9;
+				padding: 15px;
+			}
+			&:nth-child(odd){
+				.image{
+					float: right;
+					text-align: right;
+				}
+				.content{
+					float: left;
+				}
+			}
+			&:nth-child(even){
+				.image{
+					float: left;
+				}
+				.content{
+					float: right;
+				}
+			}
+		}
+	}
+}

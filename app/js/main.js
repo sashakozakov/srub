@@ -1,6 +1,12 @@
 ;
 (function ($) {
 	$(document).ready(function () {
+
+
+		//Make elements equal height
+		$('.matchHeight').matchHeight();
+
+
 		var $slider = $('.home_slider');
 
 		$slider.slick({
