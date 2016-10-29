@@ -228,6 +228,7 @@ $brown: #8f4a1d;
 						background:#000;
 						transition:all .4s;
 						opacity: 0;
+						border-radius: inherit;
 					}
 				}
 				.content{
@@ -370,6 +371,10 @@ $brown: #8f4a1d;
 }
 
 .contacts{
+	padding: 50px 0;
+	.section_subtitle{
+		margin-top: -10px;
+	}
 	form{
 		max-width: 610px;
 		width: 100%;
@@ -437,16 +442,93 @@ $brown: #8f4a1d;
 				}
 			}
 		}
-		input[type="text"],
-		input[type="tel"]{
-		}
-		input[type="tel"]{
-		}
-		input[type="email"]{
-		}
 		textarea{
 			resize: none;
 			height: 184px;
+		}
+		input[type="submit"]{
+			max-width: 277px;
+			width: 100%;
+			margin: 0 auto;
+			background-color: #95c11f;
+			border: 2px solid #638605;
+			border-radius: 3px;
+			color: #638605;
+			font-family: $font_pt;
+			font-size: 18px;
+			font-weight: 700;
+			display: inherit;
+			padding: 9px 10px 14px;
+			transition:all .4s;
+			&:hover{
+				background-color: #c11f1f;
+				border: 2px solid #860505;
+				color: #FFF;
+			}
+		}
+	}
+}
+
+
+.footer{
+	background: #C9925C url('../images/footer_bg.jpg') no-repeat 50%;
+	background-size: cover;
+	padding: 100px 0;
+	&_logo{
+		position: relative;
+		background:rgba(255,255,255,.5);
+		max-width: 250px;
+		width: 100%;
+		padding: 24px 45px 16px 0;
+		float: left;
+		margin-right: 14px;
+		&:before{
+			position: absolute;
+			content: "";
+			top: 0;bottom: 0;right: 100%;
+			width: 100%;
+			background: inherit;
+		}
+		a{
+			display: block;
+			img{
+				width: 100%;
+			}
+		}
+	}
+	&_content{
+		max-width: 250px;
+		float: left;
+		span{
+			text-transform: uppercase;
+			color: #FDEFD3;
+			font-size: 23px;
+			font-family: $font;
+			line-height: 1.25;
+			font-weight: 800;
+		}
+	}
+	&_contacts{
+		float: right;
+		ul{
+			li{
+				list-style: none;
+				a{
+					color: #8F4A1D;
+					font-size: 32px;
+					font-family: $font;
+					font-weight: 800;
+					text-decoration: none;
+					display: inline-block;
+					transition:all .4s;
+					&.email{
+						font-size: 23px;
+					}
+					&:hover{
+						color: #fff;
+					}
+				}
+			}
 		}
 	}
 }
