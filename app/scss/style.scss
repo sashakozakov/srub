@@ -203,13 +203,13 @@ $brown: #8f4a1d;
 			top: 50%;
 			transform:translateY(-50%);
 			padding: 50px 10px;
-			padding-left: 40px;
+			padding-left: 65px;
 			&:before{
 				position: absolute;
 				content: "";
 				top: 0;bottom: 0;
 				left: 100%;
-				width: 100%;
+				width: 200%;
 				background: inherit;
 			}
 			.call_link{
@@ -220,6 +220,10 @@ $brown: #8f4a1d;
 				border: 10px solid #89b414;
 				display: inline-block;
 				position: relative;
+				text-align: center;
+				padding-top: 17px;
+				text-decoration: none;
+				transition: all .4s;
 				&:after{
 					position: absolute;
 					content: "";
@@ -227,6 +231,57 @@ $brown: #8f4a1d;
 					border-radius: 50%;
 					border: 7px solid #95c11f;
 					opacity: .63;
+					transition: all .4s;
+				}
+				img,
+				svg{
+					width: 65px;
+					margin: 0 auto;
+					fill:#638605;
+					transition: all .4s;
+				}
+				span{
+					display: block;
+					text-transform: uppercase;
+					color: #638605;
+					transition: all .4s;
+					position: relative;
+					font-size: 30px;
+					font-weight: bold;
+					font-family: $font_pt;
+					line-height: 1;
+					margin-top: 18px;
+					&:before,
+					&:after{
+						position: absolute;
+						content: "";
+						width: 55px;
+						height: 2px;
+						background: #FFF;
+						margin: 0 auto;
+						left: 0;
+						right: 0;
+					}
+					&:before{
+						top: -6px;
+					}
+					&:after{
+						bottom: -5px;
+					}
+				}
+				&:hover{
+					background: #BC4327;
+					border-color: #B41414;
+					&:after{
+						border-color: #B41414;
+						opacity: 0.34;
+					}
+					svg{
+						fill:#fff;
+					}
+					span{
+						color:#fff;
+					}
 				}
 			}
 		}

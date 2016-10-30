@@ -81,7 +81,10 @@
 <section class="banner" style="background-image:url('images/slide1.jpg')">
 	<div class="row">
 	<div class="zvonok">
-		<a class="call_link" href="#"></a>
+		<a class="call_link" href="#">
+			<?php echo file_get_contents('images/call.svg'); ?>
+			<span>Заказать Звонок</span>
+		</a>
 	</div>
 		<div class="caption">
 		<ul>
