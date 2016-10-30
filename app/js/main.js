@@ -3,6 +3,19 @@
 	$(document).ready(function () {
 
 
+		$('.header .hamburher').click(function() {
+			$(this).toggleClass('opnd');
+			$('.header .menu').toggleClass('menu_opened');
+		});
+
+		$('.menu .menu-item-has-children').click(function(e) {
+			if (e.target == this) {
+				$(this).parent().find('.sub-menu').slideToggle("slow");
+				$(this).toggleClass('sub-opened');
+			}
+		});
+
+
 		$('a[href*=#]').bind("click", function (e) {
 			var anchor = $(this);
 			$('html, body').stop().animate({
