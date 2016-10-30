@@ -78,10 +78,29 @@
 	</div>
 </header>
 
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content contacts">
+    	<form action="#" method="post">
+    		<label class="name">
+    			<input type="text" id="name" placeholder="Ваше имя">
+    		</label>
+    		<label class="tel">
+    			<input type="tel" id="tel" placeholder="Номер телефона">
+    		</label>
+    		<input type="submit" value="Заказать звонок">
+    	</form>
+    	<div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section class="banner" style="background-image:url('images/slide1.jpg')">
 	<div class="row">
 	<div class="zvonok">
-		<a class="call_link" href="#">
+		<a class="call_link" href="#" data-toggle="modal" data-target=".bs-example-modal-lg">
 			<?php echo file_get_contents('images/call.svg'); ?>
 			<span>Заказать Звонок</span>
 		</a>

@@ -170,6 +170,38 @@ $brown: #8f4a1d;
 	}
 }
 
+.modal{
+	padding: 15px;
+	.modal-content{
+		&.contacts{
+			padding: 15px;
+			form{
+				margin-top: 54px;
+				label{
+					width: 100%;
+				}
+				input[type="text"],
+				input[type="tel"],
+				input[type="email"]{
+					width: 100%;
+				}
+				input[type="submit"]{
+					padding: 10px;
+				}
+			}
+			.modal-footer{
+				position: absolute;
+				right: 0;top: 0;
+				.btn-default{
+					border: none;
+					transition: all .4s;
+					font-size: 22px;
+					background: transparent !important;
+				}
+			}
+		}
+	}
+}
 
 .banner{
 	height: 100vh;
@@ -223,6 +255,7 @@ $brown: #8f4a1d;
 				text-align: center;
 				padding-top: 17px;
 				text-decoration: none;
+				outline:none;
 				transition: all .4s;
 				&:after{
 					position: absolute;
