@@ -28,6 +28,10 @@
 							&:hover{
 								.sub-menu{
 									display: block;
+									width: 210px;
+									left: -100%;
+									right: auto;
+									box-shadow: 0 8px 12px 1px rgba(0,0,0,.5);
 								}
 							}
 						}
@@ -103,7 +107,8 @@
 						a{
 							display: inline-block;
 							font-size: 18px;
-							&:before{
+							&:before,
+							&:after{
 								display: none;
 							}
 						}
